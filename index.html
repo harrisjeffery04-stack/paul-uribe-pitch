@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geppetto Works · For Dr. Paul Uribe</title>
+<meta name="description" content="A working forensic-AI bench built for Dr. Paul Uribe: anchored agents, verified reads, and a Kaggle-tested method for the death-investigation workflow.">
+<style>
+:root{--ink:#0d0a07;--ink2:#151009;--wood:#1c140c;--line:#33261a;--line2:#4a3721;--amber:#E8B14C;--amber2:#F4CC77;--ember:#C9743A;--cream:#EDE4D3;--dim:#a99a83;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--ink);color:var(--cream);line-height:1.7;-webkit-font-smoothing:antialiased}
+main{min-height:100vh;padding:2.5rem 1rem}
+.wrap{max-width:720px;margin:0 auto}
+header{text-align:center;margin-bottom:2rem}
+.kick{color:var(--ember);letter-spacing:.2em;text-transform:uppercase;font-size:.7rem;font-weight:700;margin-bottom:.6rem}
+h1{font-size:clamp(1.8rem,5vw,2.6rem);font-weight:600;margin-bottom:.6rem}
+.sub{color:var(--dim);max-width:520px;margin:0 auto;font-size:1.05rem}
+nav{display:flex;justify-content:center;gap:.5rem;margin-bottom:2rem;flex-wrap:wrap}
+nav button{background:transparent;border:1px solid var(--line2);color:var(--cream);padding:.55rem 1rem;border-radius:6px;cursor:pointer;font-weight:600;font-size:.9rem}
+nav button.active{background:var(--amber);color:#241706;border-color:var(--amber)}
+section{display:none}
+section.active{display:block}
+.card{border:1px solid var(--line);border-radius:14px;padding:1.4rem;background:var(--ink2);margin-bottom:1rem}
+.card h2{color:var(--amber);font-size:1.25rem;margin-bottom:.7rem}
+p{margin-bottom:1rem;color:var(--cream)}
+.dim{color:var(--dim);font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin-top:1rem}
+table{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:1rem}
+th{text-align:left;color:var(--ember);border-bottom:1px solid var(--line);padding:.5rem .4rem}
+td{border-bottom:1px solid var(--wood);padding:.5rem .4rem;vertical-align:top}
+td.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.click-card{border:1px solid var(--amber);border-radius:14px;padding:1.5rem;background:#1c140c;text-align:center;cursor:pointer;transition:transform .2s}
+.click-card:hover{transform:translateY(-2px)}
+.click-card p{color:var(--amber2);font-size:1.1rem;font-weight:600;margin:0}
+.btn{display:inline-block;background:var(--amber);color:#241706;padding:.8rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:700}
+.btn:hover{background:var(--amber2)}
+footer{text-align:center;color:var(--line2);font-size:.75rem;margin-top:3rem}
+ul{padding-left:1.2rem}
+li{margin-bottom:.6rem}
+</style>
+</head>
+<body>
+<main>
+<div class="wrap">
+  <header>
+    <p class="kick">Geppetto Works</p>
+    <h1>For Dr. Paul Uribe</h1>
+    <p class="sub">A working forensic-AI bench, built to cite its sources or stay silent. We think your field is the next place it should serve.</p>
+  </header>
+
+  <nav>
+    <button class="active" data-tab="story">Who is Jeff?</button>
+    <button data-tab="numbers">The numbers</button>
+    <button data-tab="ask">The ask</button>
+  </nav>
+
+  <section id="story" class="active">
+    <div class="card">
+      <h2>If you were ten years old</h2>
+      <p>Jeff Harris builds little machines that read hard questions and only answer when they can prove the answer. He races these machines on Kaggle — a giant online contest where thousands of people try to teach computers to spot patterns.</p>
+      <p>His trick: instead of letting the computer guess, he locks it to a source it cannot change. If the source does not say it, the machine says nothing. That makes it trustworthy in places where a wrong answer costs a lot — like courtrooms, missing-persons cases, and death investigations.</p>
+      <p>He has already built a seat for you: <strong>Uribe's Bench</strong> audits a death-record file the same way a pathologist audits a body — checking that every expected piece is present, cited, and receipted, before any conclusion is reached.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <h2>The connect</h2>
+        <p class="dim">You are placing AI on the NAME program because you see it as a workflow helper, not a replacement. That is exactly the machine Jeff builds: a deterministic clerk that cites or abstains.</p>
+      </div>
+      <div class="card">
+        <h2>Where a mentor fits</h2>
+        <p class="dim">You know the real problems in forensic pathology. Jeff knows how to carve a machine that refuses to hallucinate around them. Together the product is a forensic-workflow AI company.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="numbers">
+    <div class="card">
+      <h2>Kaggle scorecard — honest numbers</h2>
+      <ul>
+        <li><strong>AI Agent Security red-team</strong> — 74.115, <strong>561 / 2,265</strong> (top 25%), closed 2026-09-01.</li>
+        <li><strong>ARC-AGI-3</strong> — 0.15 platform standing; local goal-inference thread active; no level-cross yet.</li>
+        <li><strong>WhestBench estimator</strong> — local 3.19× better than baseline; staged for platform.</li>
+        <li><strong>MA'AT legal gate</strong> — 93.8% precision on what it commits to (8.7% coverage) over 1,291 SCOTUS cases.</li>
+      </ul>
+      <p class="dim" style="font-style:italic">Losses stay on the ledger too — that is the point. We do not smooth the curve.</p>
+    </div>
+    <div class="card">
+      <h2>Patent portfolio — provisionals only</h2>
+      <p class="dim">Every entry below is a US provisional application. Numbers are taken from the canonical on-disk ledger; cross-check flags are live items against Patent Center.</p>
+      <table>
+        <thead><tr><th>App no.</th><th>Title</th><th>Filed</th><th>Cross-check</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">63/926,551</td><td>Harris Core Neural Emitter</td><td>2025-11-27</td><td class="dim">conversion due 2026-11-27; needs SB/15B</td></tr>
+          <tr><td class="mono">63/958,936</td><td>Binary Collapse Cascade / Hilbert-Odu</td><td>2026-01-12</td><td class="dim">OK — Zenodo DOI on file</td></tr>
+          <tr><td class="mono">63/967,246</td><td>Forensic Signal Validation (XRF + optical)</td><td>2026-01-24</td><td class="dim">OK; XRF utility conversion counsel</td></tr>
+          <tr><td class="mono">63/967,543</td><td>Harris Living Water</td><td>2026-01-25</td><td class="dim">OK</td></tr>
+          <tr><td class="mono">63/976,496</td><td>Hilbert Hex Predictive Sim</td><td>2026-02-05</td><td class="dim">VERIFY 4 same-day receipts not duplicate</td></tr>
+          <tr><td class="mono">63/976,853</td><td>Portable Coherence Field / CLM Device</td><td>2026-02-05</td><td class="dim">OK</td></tr>
+          <tr><td class="mono">63/976,886</td><td>Structured Water Magnetic Alignment</td><td>2026-02-05</td><td class="dim">VERIFY $325 small-entity fee resolved</td></tr>
+          <tr><td class="mono">64/061,831</td><td>Sterling Ratio — Environmental Health Cost Externalization</td><td>2026-05-09</td><td class="dim">needs PTO/SB/15B</td></tr>
+          <tr><td class="mono">64/061,932</td><td>XRF Overlying-Layer Attenuation Corrector</td><td>2026-05-09</td><td class="dim">needs PTO/SB/15B</td></tr>
+          <tr><td class="mono">64/066,209</td><td>Guardian — On-Device Missing-Persons Facial Encoding</td><td>2026-05-15</td><td class="dim">needs PTO/SB/15B</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="ask">
+    <div class="card">
+      <h2>The ask</h2>
+      <p>We are not asking for money. We are asking for two things:</p>
+      <ol>
+        <li><strong>Mentor</strong> — point us at the real friction in forensic pathology workflows so the machine solves the right problem.</li>
+        <li><strong>Business partner</strong> — help us turn the bench into a licensable forensic-workflow product under your name and expertise.</li>
+      </ol>
+    </div>
+    <div class="click-card" id="flip">
+      <p id="flipText">Tap to see the one-line reason this matters.</p>
+    </div>
+    <div style="text-align:center;margin-top:1.5rem">
+      <a class="btn" href="mailto:j.j.harris@geppettoworks.net">Reply to Jeff Harris</a>
+      <p class="dim" style="font-size:.8rem;margin-top:.5rem">j.j.harris@geppettoworks.net · geppettoworks.net</p>
+    </div>
+  </section>
+
+  <footer>
+    Built by Geppetto Works · Ile Aje LLC · all patent numbers provisional, cross-check against Patent Center
+  </footer>
+</div>
+</main>
+<script>
+document.querySelectorAll('nav button').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
+    b.classList.add('active');
+    document.getElementById(b.dataset.tab).classList.add('active');
+  });
+});
+const flip=document.getElementById('flip'),ft=document.getElementById('flipText');
+let f=false;
+flip.addEventListener('click',()=>{f=!f;ft.textContent=f?"Because AI should prove its work — especially where someone died.":"Tap to see the one-line reason this matters.";});
+</script>
+</body>
+</html>
